@@ -11,9 +11,9 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
-# Left commented, pending review: the single letters B, E, N, S and W
-# (a bearing or a command option), and In, Out, My and Solid, whose meaning
-# is not clear from the English alone.
+# Left commented: "B" is a glyph (the blue channel, and the app's own i18n test
+# groups it with X and Y as a letter that is not a word). Current CADCraft does not
+# look that letter up as a translatable label.
 	  Cancel  	  ביטול  
 	  OK  	  אישור  
 	 or [	 או [
@@ -76,7 +76,7 @@
 	Annotative Update	עדכון ביאורי
 	Apparent Intersection	הצטלבות נראית
 	Append to current selection set	הוספה לערכת הבחירה הנוכחית
-	Apply to Layout	החלה על הגיליון
+	Apply to Layout	החלה על הפריסה
 	Apply true color	החלת צבע אמיתי
 	Arc Length	אורך קשת
 	Architectural	אדריכלי
@@ -202,7 +202,7 @@
 	Copy as JSON	העתקה כ-JSON
 	Copy Full File Path	העתקת נתיב הקובץ המלא
 	Copy History	העתקת ההיסטוריה
-	Copy Layout	העתקת גיליון
+	Copy Layout	העתקת פריסה
 	Copy Nested Objects	העתקת אובייקטים מקוננים
 	Copy Selection	העתקת הבחירה
 	Copy with Base Point	העתקה עם נקודת בסיס
@@ -249,7 +249,7 @@
 	Delete Dimension Style	מחיקת סגנון מידות
 	Delete Duplicate Objects	מחיקת אובייקטים כפולים
 	Delete Layer State	מחיקת מצב שכבות
-	Delete Layout	מחיקת גיליון
+	Delete Layout	מחיקת פריסה
 	Delete Row	מחיקת שורה
 	Delete Text Style	מחיקת סגנון טקסט
 	Delta X	הפרש X
@@ -304,7 +304,7 @@ menu	Draw	ציור
 	Dynamic Dimensions	מידות דינמיות
 	Dynamic Input	קלט דינמי
 	Dynamic Input (F12)	קלט דינמי (F12)
-#	E	
+	E	מז
 	Edit Array	עריכת מערך
 	Edit Attributes...	עריכת תכונות...
 	Edit Block Definition	עריכת הגדרת בלוק
@@ -381,7 +381,7 @@ menu	Draw	ציור
 	Export Table	ייצוא טבלה
 	Export to PDF...	ייצוא ל-PDF...
 	Export...	ייצוא...
-	Express Tools	כלים נוספים
+	Express Tools	כלים מורחבים
 	Extend	הארכה
 	Extension	המשך
 	Extents	גבולות התוכן
@@ -463,7 +463,7 @@ menu	Draw	ציור
 	Imperial (inches)	אימפריאלי (אינצ'ים)
 	Implied Loops	לולאות משתמעות
 	Import...	ייבוא...
-#	In	
+	In	הגדלה
 	In-window Menu Bar	שורת תפריטים בתוך החלון
 	Include in new selection set	הכללה בערכת הבחירה החדשה
 	Increment angle	זווית מרווח
@@ -472,7 +472,6 @@ menu	Draw	ציור
 	Indicate selection area	הצגת אזור הבחירה
 	Infer Constraints	הסקת אילוצים
 	Inquiry	בירור
-	Insert	הכנסה
 	Insert Block	הכנסת בלוק
 	Insert Column	הוספת עמודה
 	Insert Row	הוספת שורה
@@ -497,7 +496,7 @@ menu	Draw	ציור
 	Isometric Drafting	שרטוט איזומטרי
 	Isometric Plane	מישור איזומטרי
 	Isometric snap	הצמדה איזומטרית
-	Jogged	עם שבר
+	Jogged	רדיוס עם שבר
 	Jogged Linear	לינארית עם שבר
 	Keep an editable copy of this table in the drawing	שמירת עותק שניתן לערוך של הטבלה הזו בשרטוט
 	Keep the system cursor visible over the drawing area	השארת סמן המערכת גלוי מעל אזור השרטוט
@@ -517,11 +516,10 @@ menu	Draw	ציור
 	Layer Tools	כלי שכבות
 	Layers displayed: {shown} of {total}.   Current layer: {layer}	שכבות מוצגות: {shown} מתוך {total}.   שכבה נוכחית: {layer}
 	Layers Palette	לוח שכבות
-	Layout	גיליון
-	Layout list	רשימת גיליונות
-	Layout paper	נייר הגיליון
-	Layout {name}: {table}	גיליון {name}: {table}
-	Layouts	גיליונות
+	Layout list	רשימת פריסות
+	Layout paper	נייר הפריסה
+	Layout {name}: {table}	פריסה {name}: {table}
+	Layouts	פריסות
 	Leader	קו מוביל
 	Leaders Only	קווים מובילים בלבד
 	Left device button: zoom extents. Right device button: calibrate.	הכפתור השמאלי של ההתקן: התאמה לגבולות. הכפתור הימני: כיול.
@@ -541,7 +539,7 @@ menu	Draw	ציור
 	List Dimension Styles	רשימת סגנונות מידות
 	List Groups	רשימת קבוצות
 	List Layer States	רשימת מצבי שכבות
-	List Layouts	רשימת גיליונות
+	List Layouts	רשימת פריסות
 	List System Variables	רשימת משתני מערכת
 	List Text Styles	רשימת סגנונות טקסט
 	Load all	טעינת הכול
@@ -596,9 +594,9 @@ menu	Modify	שינוי
 	Multiple	מרובה
 	Multiple Insert	הכנסה מרובה
 	Multiple Point	נקודות מרובות
-#	My	
+	My	שלי
 	My properties: not available yet	המאפיינים שלי: עדיין לא זמין
-#	N	
+	N	צ
 	Named	עם שם
 	Named Viewports...	אשנבים עם שם...
 	Named Views...	מבטים עם שם...
@@ -612,8 +610,8 @@ menu	Modify	שינוי
 	New Drawing (⌘N)	שרטוט חדש (⌘N)
 	New Drawing...	שרטוט חדש...
 	New from Template...	חדש מתבנית...
-	New Layout	גיליון חדש
-	New layout	גיליון חדש
+	New Layout	פריסה חדשה
+	New layout	פריסה חדשה
 	New state name	שם מצב חדש
 	New STB	STB חדש
 	New style	סגנון חדש
@@ -671,9 +669,10 @@ menu	Modify	שינוי
 	Ortho Mode	מצב אורתוגונלי
 	Ortho Mode (F8)	מצב אורתוגונלי (F8)
 	Osnap Settings...	הגדרות הצמדה...
-#	Out	
+	Out	הקטנה
 	Outer	חיצוני
 	Over-constrained	אילוץ יתר
+	Overlay	כיסוי
 	Overline	קו עליון
 	Override	דריסה
 	overrides built-in	דורס את המובנה
@@ -789,7 +788,7 @@ menu	Modify	שינוי
 	Rename Dimension Style	שינוי שם של סגנון מידות
 	Rename Layer	שינוי שם של שכבה
 	Rename Layer State	שינוי שם של מצב שכבות
-	Rename Layout	שינוי שם של גיליון
+	Rename Layout	שינוי שם של פריסה
 	Rename Text Style	שינוי שם של סגנון טקסט
 	Rename...	שינוי שם...
 	Repeat {command}	חזרה על {command}
@@ -808,7 +807,7 @@ menu	Modify	שינוי
 	Revision Cloud	ענן תיקונים
 	Revolve	יצירה בסיבוב
 	Run Script...	הרצת סקריפט...
-#	S	
+	S	ד
 	Sample output	פלט לדוגמה
 	Save (⌘S)	שמירה (⌘S)
 	Save alias	שמירת כינוי
@@ -820,7 +819,7 @@ menu	Modify	שינוי
 	Save changes to block "{name}"?	לשמור את השינויים בבלוק "{name}"?
 	Save changes to {name}?	לשמור את השינויים ב-{name}?
 	Save Layer State	שמירת מצב שכבות
-	Save Layout as Template	שמירת גיליון כתבנית
+	Save Layout as Template	שמירת פריסה כתבנית
 	Save new drawings as	שמירת שרטוטים חדשים בתור
 	Save Reference Edits	שמירת עריכות ההפניה
 	Save State	שמירת מצב
@@ -829,7 +828,7 @@ menu	Modify	שינוי
 	Scale List...	רשימת קני מידה...
 	Scientific	מדעי
 	Screen magnifiers, screen readers and recorders follow the system cursor.	מגדילי מסך, קוראי מסך ומקליטים עוקבים אחרי סמן המערכת.
-	Screening	אחוז כיסוי
+	Screening	דהייה
 	Search for layer	חיפוש שכבה
 	Search for parameter	חיפוש פרמטר
 	Search for pattern	חיפוש תבנית
@@ -950,7 +949,7 @@ menu	Modify	שינוי
 	Snap type	סוג הצמדה
 	Snap X spacing	מרווח הצמדה ב-X
 	Snap, grid, polar tracking and Dynamic Input:	הצמדה, רשת, מעקב קוטבי וקלט דינמי:
-#	Solid	
+	Solid	גוף
 	Solid Editing	עריכת גופים
 	Specified origin	ראשית שנקבעה
 	Specify a point	יש לציין נקודה
@@ -1100,7 +1099,7 @@ menu	Modify	שינוי
 	Sweep	החלקה לאורך נתיב
 	Switch between model space in a viewport and paper space	מעבר בין מרחב המודל באשנב למרחב הנייר
 	Switch Drawing	החלפת שרטוט
-	Switch Layout	החלפת גיליון
+	Switch Layout	החלפת פריסה
 	Symmetric	סימטרי
 	Synchronize Attributes	סנכרון תכונות
 	Synchronize Multiple-scale Positions	סנכרון מיקומים בכמה קני מידה
@@ -1139,7 +1138,7 @@ menu	Modify	שינוי
 	Top left	שמאל למעלה
 	Top right	ימין למעלה
 	Torus	טורוס
-	Trace	קו עקיבה
+	Trace	עקיבה
 	Track orthogonally only	מעקב אורתוגונלי בלבד
 	Track using all polar angle settings	מעקב לפי כל הגדרות הזווית הקוטבית
 	Trim	קיטום
@@ -1174,7 +1173,7 @@ menu	Modify	שינוי
 	US Survey Mile	מייל סקר אמריקאי
 	US Survey Yard	יארד סקר אמריקאי
 	Use current origin	שימוש בראשית הנוכחית
-	Use for this layout	שימוש בגיליון הזה
+	Use for this layout	שימוש בפריסה הזו
 	Use object linetype	שימוש בסוג הקו של האובייקט
 	Use object lineweight	שימוש בעובי הקו של האובייקט
 	Use System Setting	שימוש בהגדרת המערכת
@@ -1187,7 +1186,6 @@ menu	Modify	שינוי
 	Version 2013	גרסה 2013
 	Version 2018	גרסה 2018
 	VerticalDistance	מרחק אנכי
-	View	מבט
 menu	View	תצוגה
 	ViewCube	קוביית מבטים
 	Viewport	אשנב
@@ -1202,8 +1200,8 @@ menu	View	תצוגה
 	Volume	נפח
 	VP Color	צבע באשנב
 	VP Freeze	הקפאה באשנב
-#	W	
-	WCS	מערכת צירים עולמית
+	W	מע
+	WCS	מעצ״ע
 	When a command is active	כשפקודה פעילה
 	When no command is active	כשאין פקודה פעילה
 	Whole words	מילים שלמות
